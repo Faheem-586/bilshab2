@@ -21,6 +21,7 @@
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
         "drupal/devel": "^4.1",
+        "drupal/whatsapp_bubble": "^1.0@beta",
         "drush/drush": "^11.0"
     },
     "conflict": {

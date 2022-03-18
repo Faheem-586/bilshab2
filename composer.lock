@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9e6e2a562636823ce4af2f327385ed43",
+    "content-hash": "47f64173331eea3d1e0c32e793227943",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2292,6 +2292,54 @@
                 "source": "https://gitlab.com/drupalspoons/devel",
                 "issues": "https://gitlab.com/drupalspoons/devel/-/issues",
                 "slack": "https://drupal.slack.com/archives/C012WAW1MH6"
+            }
+        },
+        {
+            "name": "drupal/whatsapp_bubble",
+            "version": "1.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/whatsapp_bubble.git",
+                "reference": "1.0.0-beta2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/whatsapp_bubble-1.0.0-beta2.zip",
+                "reference": "1.0.0-beta2",
+                "shasum": "62dd73e074affa2a0d4f7bb8472ac557184317f8"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-beta2",
+                    "datestamp": "1594516843",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "obiwankenobi",
+                    "homepage": "https://www.drupal.org/user/103029"
+                }
+            ],
+            "description": "Displays a floating whatsapp call link.",
+            "homepage": "https://www.drupal.org/project/whatsapp_bubble",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/whatsapp_bubble",
+                "issues": "https://www.drupal.org/project/issues/whatsapp_bubble"
             }
         },
         {
@@ -6893,7 +6941,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/whatsapp_bubble": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
