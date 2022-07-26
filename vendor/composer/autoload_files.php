@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'a4a119a56e50fbb293281d9a48007e0e' => $vendorDir . '/symfony/polyfill-php80/bootstrap.php',
     '320cde22f66dd4f5d3fd621d3e88b98f' => $vendorDir . '/symfony/polyfill-ctype/bootstrap.php',
+    '9b38cf48e83f5d8f60375221cd213eee' => $vendorDir . '/phpstan/phpstan/bootstrap.php',
     '6e3fae29631ef280660b3cdad06f25a8' => $vendorDir . '/symfony/deprecation-contracts/function.php',
     '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
     '0d59ee240a4cd96ddbb4ff164fccea4d' => $vendorDir . '/symfony/polyfill-php73/bootstrap.php',
@@ -19,6 +20,7 @@ return array(
     'c964ee0ededf28c96ebd9db5099ef910' => $vendorDir . '/guzzlehttp/promises/src/functions_include.php',
     'a0edc8309cc5e1d60e3047b5df6b7052' => $vendorDir . '/guzzlehttp/psr7/src/functions_include.php',
     '37a3dc5111fe8f707ab4c132ef1dbc62' => $vendorDir . '/guzzlehttp/guzzle/src/functions_include.php',
+    'c9d07b32a2e02bc0fc582d4f0c1b56cc' => $vendorDir . '/laminas/laminas-servicemanager/src/autoload.php',
     '07d7f1a47144818725fd8d91a907ac57' => $vendorDir . '/laminas/laminas-diactoros/src/functions/create_uploaded_file.php',
     'da94ac5d3ca7d2dbab84ce561ce72bfd' => $vendorDir . '/laminas/laminas-diactoros/src/functions/marshal_headers_from_sapi.php',
     '3d97c8dcdfba8cb85d3b34f116bb248b' => $vendorDir . '/laminas/laminas-diactoros/src/functions/marshal_method_from_sapi.php',
@@ -41,4 +43,5 @@ return array(
     '8825ede83f2f289127722d4e842cf7e8' => $vendorDir . '/symfony/polyfill-intl-grapheme/bootstrap.php',
     'b6b991a57620e2fb6b2f66f03fe9ddc2' => $vendorDir . '/symfony/string/Resources/functions.php',
     '801c31d8ed748cfa537fa45402288c95' => $vendorDir . '/psy/psysh/src/functions.php',
+    '2d0bd6b7e257b7230c706e6559d6a87b' => $vendorDir . '/mglaman/phpstan-drupal/drupal-phpunit-hack.php',
 );
